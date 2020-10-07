@@ -1,0 +1,61 @@
+body {
+    background-color: #F5F5F5;
+    color: #555;
+    font-size: 1.1em;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 700px;
+}
+
+.demo {
+    max-width: 500px;
+    margin: 30px auto;
+    background-color: #0099cc;
+    color: white;
+    padding: 20px;
+}
+
+.demo-1 {
+    /* text-align: right; */
+    direction: rtl;
+}
+
+.child {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.demo-2 {
+    text-align: center;
+}
+
+.demo-3 {
+    text-align: justify;
+}
+
+h2 {
+    text-decoration: underline overline;
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+.text {
+    text-decoration: underline;
+}
+
+.text span {
+    color: #888;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.link {
+    text-decoration: none;
+}
