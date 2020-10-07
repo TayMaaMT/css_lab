@@ -1,0 +1,38 @@
+body {
+    background-color: #F5F5F5;
+    color: #555;
+    font-size: 1.1em;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+}
+
+.element {
+    height: 400px;
+    width: 100%;
+    background-image: url(http://tympanus.net/codrops-playground/assets/images/cssref/properties/background/bee.png);
+}
+
+.container2 {
+    width: 90%;
+}
+
+.element2 {
+    background-color: #565455;
+    color: white;
+}
+
+.shorthand {
+    font: normal bold "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+
+.system {
+    font: italic bold larger Verdana, Geneva, Tahoma, sans-serif;
+    /* font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold; */
+    /* try changing the font size, style, weight etc. of the system font using the individual properties */
+}
