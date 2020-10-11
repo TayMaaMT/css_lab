@@ -1,0 +1,21 @@
+html {
+    height: 1200px;
+}
+
+body {
+    margin: auto 0;
+}
+
+.box-set {
+    background: #eaeaed;
+    margin: 10%;
+}
+
+.box {
+    background: #2db34a;
+    float: left;
+    margin: 1%;
+    width: 30%;
+    height: 100px;
+    overflow: hidden
+}
