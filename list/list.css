@@ -1,0 +1,30 @@
+body {
+    color: #555;
+    font-size: 1.1em;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.container {
+    margin: 40px auto;
+    max-width: 400px;
+}
+
+li {
+    vertical-align: top;
+}
+
+.first {
+    list-style: circle url(http://tympanus.net/codrops-playground/assets/images/cssref/pseudo/list-style/arrow-circle.png) outside;
+}
+
+.second {
+    list-style: square inside;
+}
+
+.third {
+    list-style: none;
+}
+
+.fourth {
+    list-style-type: lower-roman;
+}

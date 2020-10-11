@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="box.css">
+</head>
+
+<body>
+    <!-- border  -->
+    <!-- <div class="container">
+        <p>Change the values of the <code>border</code> property to see how the border changes.</p>
+        <div class="element">
+            <p>
+                I have a 5px solid green border.
+            </p>
+        </div>
+    </div> -->
+
+    <!-- margin -->
+    <!-- <div class="container">
+        <p>The blue element inside the white container has a margin set. Try changing it to see how it affects the space between the element and its surroundings changes.</p>
+
+        <div class="parent">
+            <div class="element">
+                I have a margin in four directions.
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, iste, animi magni suscipit nobis sint voluptatem asperiores sunt fugiat in enim aspernatur nostrum veritatis repellat quasi modi neque dolores aliquam. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Fuga, vitae perferendis eius suscipit ipsum et aliquam. Quas, odit, atque laboriosam temporibus totam vero mollitia animi provident illo illum delectus nemo?
+            </p>
+        </div>
+
+        <div class="parent">
+            <div class="centered">
+                I'm centered horizontally using <code>auto</code> as my horizontal margin.
+            </div>
+        </div>
+
+        <div class="parent">
+            <div class="offsetted">
+                I am offsetted outside my parent using a negative margin to the bottom.
+            </div>
+        </div>
+    </div> -->
+
+    <!-- padding -->
+    <div class="container">
+        <p>Both of the following containers have the same height and width set using the <code>height</code> and <code>width</code> properties. The first one has the default box-sizing value, and the second one has the box-sizing set to border-box.</p>
+        <p>
+            The height and width of the first one increase when the padding is added. The height of the second one remains the same. Both their heights and widths are set to 330px by 300px respectively using the <code>height</code> and <code>width</code>            properties.
+        </p>
+        <div class="element element-1">
+            I have a padding of 30px. My height is set to 330px. My total height is: 390px. My width is set to 300px. My total width is 460px.
+        </div>
+
+
+        <p>
+            To avoid that, make sure you don't set any fixed heights on your elements. It is almost always best to let the element's height adjust to the content inside it.
+        </p>
+        <div class="element boxSizing adjust">
+            I have a padding, and my <code>box-sizing</code> property has been set to <code>border-box</code>. My height is adjusted to my content. My width is set to 300px. My total width remains 300px no matter how much padding is added.
+            <p>
+                I have more content than the second element, and the same padding, but my content does not get cut off because my height is set to <code>auto</code>, which means that my height increases as my content does.
+            </p>
+            <p>
+                The box-sizing property still has the same effect on my width.
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>

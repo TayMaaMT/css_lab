@@ -1,0 +1,87 @@
+body {
+    background-color: #F5F5F5;
+    color: #555;
+    font-size: 1.1em;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    margin: 40px auto;
+    max-width: 700px;
+}
+
+.element {
+    padding: 20px;
+    border: 2px solid grey;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    padding: 10px;
+    z-index: 1;
+    background-color: #333;
+    color: white;
+}
+
+p img {
+    /* establish positioning context */
+    /* shift position from original position */
+    position: relative;
+    top: -25px;
+    right: -25px;
+}
+
+.context {
+    /* general styles */
+    border: 2px solid grey;
+    min-height: 200px;
+    margin-top: 30px;
+    padding: 20px;
+    /* establish positioning context */
+    position: relative;
+}
+
+.absolute {
+    /* general styles */
+    height: 150px;
+    width: 150px;
+    background-color: deepPink;
+    color: white;
+    padding: 10px;
+    opacity: .8;
+    /* position absolutely */
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+.fixed {
+    color: white;
+    background-color: #009966;
+    padding: 20px;
+    width: 200px;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    z-index: 3;
+}
+
+.context-2 {
+    min-height: 330px;
+}
+
+.absolute-stretch {
+    background-color: deepPink;
+    opacity: .75;
+    /* play with these values */
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* top: 0; */
+    /* uncomment this value and then comment the height value to see how the element changes */
+}

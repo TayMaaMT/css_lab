@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="position.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <p>
+            The heading above me is sticky. When u scroll down, it will get fixed to the top of the viewport once its edge hits that of the viewport.
+        </p>
+        <p>
+            The green box on the right is always fixed relative to the viewport no matter now much u scroll vertically and/or horizontally.
+        </p>
+        <p>
+            The following two containers demonstrate relative and absolute positioning.
+        </p>
+        <h1 class="sticky">I am a sticky title. Scroll Down to see me Stick!</h1>
+        <div class="element">
+            <p>The following image has been relatively positioned <img src="http://tympanus.net/codrops-playground/assets/images/cssref/properties/position/smiley.jpg" alt="">and shifted from its position by 25px upwards and 250px to the right.</p>
+            <p>
+                Its original position in the flow is preserved, and it overlaps surrounding elements since there is not enough margin between them.
+            </p>
+        </div>
+        <div class="context">
+            <div class="absolute"></div>
+            <p>I have established a positioning context for my descendants by getting <code>position: relative</code>. My pink square child is positioned absolutely 20px from the bottom and 10px outside my boundaries by using <code>right: -20px</code>. It
+                is removed from my normal content flow and can overlap elements beneath it.</p>
+            <p>
+                <strong>Try changing the offset values and stretching the pink box horizontally and vertically.</strong>
+
+            </p>
+        </div>
+
+        <div class="fixed">
+            I am always fixed relative to the viewport!
+        </div>
+
+        <div class="context context-2">
+            <div class="absolute-stretch"></div>
+            <p>
+                My absolutely positioned element is stretched horizontally using the horizontal offset properties <code>left</code> and <code>right</code>. It also has a height value set. It is positioned at the bottom using the <code>bottom</code> property.
+                Because it has a spefiied height, if you specify a top offset using the <code>top</code> property, it will be moved to my top because the <code>top</code> property wins.
+            </p>
+            <p>
+                Try adding a top offset, to see how it is repositioned. Then, try removing the specified height to see how it stretches vertically to fill the vertical space. Try changing the width and horizontal offsets to see how that changes it, too.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
